@@ -1,0 +1,9 @@
+def sort_words_alphabetically(words):
+    words_list = words.split()
+    sorted_words = sorted(words_list)
+    sorted_string = ' '.join(sorted_words)
+    return sorted_string
+# Test the function
+input_string = input("Enter a list of words separated by spaces: ")
+sorted_result = sort_words_alphabetically(input_string)
+print("Sorted words:", sorted_result)
